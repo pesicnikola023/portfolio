@@ -1,0 +1,54 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none; /* Standard syntax */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+  cursor: none; /* Hide default cursor */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+@media (max-width: 738px) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
+/* Style the cursor image */
+.custom-cursor img {
+  width: 50px; /* Adjust the width of the cursor */
+  height: auto; /* Maintain aspect ratio */
+  filter: invert(100%); /* Invert the colors to make it white */
+}
+@media (max-width: 738px) {
+  .custom-cursor img {
+    display: none;
+  }
+}/*# sourceMappingURL=CustomCursor.css.map */

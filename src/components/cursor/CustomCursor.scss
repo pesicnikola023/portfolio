@@ -1,0 +1,22 @@
+@import "../../app.scss";
+
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+
+  @include mobile {
+    display: none; // Hide logo on small screens
+  }
+}
+
+/* Style the cursor image */
+.custom-cursor img {
+  width: 50px; /* Adjust the width of the cursor */
+  height: auto; /* Maintain aspect ratio */
+  filter: invert(100%); /* Invert the colors to make it white */
+
+  @include mobile {
+    display: none; // Hide logo on small screens
+  }
+}

@@ -1,0 +1,61 @@
+@import "../../app.scss";
+
+.navbar {
+  height: 100px;
+
+  .wrapper {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  @include tablet {
+    .logo {
+      display: none;
+    }
+    .wrapper {
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 20px;
+      gap: 10px; // Adjust gap for smaller screens
+    }
+
+    .social {
+      margin-top: 10px; // Add margin for better spacing on smaller screens
+    }
+  }
+
+  @include mobile {
+    .logo {
+      display: none; // Hide the logo on mobile screens
+    }
+
+    .wrapper {
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 20px;
+      gap: 10px; // Adjust gap for smaller screens
+    }
+
+    .social {
+      margin-top: 10px; // Add margin for better spacing on smaller screens
+    }
+  }
+}
