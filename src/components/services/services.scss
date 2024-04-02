@@ -17,6 +17,7 @@
       align-self: center;
       text-align: center;
       flex-direction: column;
+      margin-top: -50px;
     }
 
     p {
@@ -24,6 +25,7 @@
       font-size: 20px;
       color: gray;
       text-align: right;
+      display: none;
     }
 
     hr {
@@ -120,9 +122,15 @@
         padding: 10px;
       }
 
+      h2 {
+        @include mobile {
+          font-size: 18px;
+        }
+      }
+
       p {
         @include mobile {
-          display: none;
+          font-size: 14px;
         }
       }
     }

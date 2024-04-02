@@ -14,14 +14,14 @@ const items = [
     id: 2,
     title: "Nike Landing Page",
     img: "/nike2.png",
-    desc: "Nike023, powered by React and styled with Tailwind CSS, offers an immersive experience on Netlify. Dive into curated content and tools exploring all things",
+    desc: "Nike023, powered by React and styled with Tailwind CSS, offers an immersive experience on Netlify. Dive into curated content and tools exploring all things.",
     link: "https://nike023.netlify.app/",
   },
   {
     id: 3,
     title: "Putuk Truno Camping App",
     img: "/camping3.png",
-    desc: "Putuk Truno Camping App, employs React and Tailwind CSS for a seamless user experience. Discover curated camping content and tools",
+    desc: "Putuk Truno Camping App, employs React and Tailwind CSS for a seamless user experience. Discover curated camping content and tools.",
     link: "https://campingapp.netlify.app/",
   },
   {

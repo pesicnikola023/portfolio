@@ -55,7 +55,7 @@ const Services = ({ scrollToPortfolio }) => {
               Digital Horizon.
             </motion.b>{" "}
           </h1>
-          <button onClick={scrollToPortfolio}>WHAT I DO?</button>
+          <button onClick={scrollToPortfolio}>WHAT I DID?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
