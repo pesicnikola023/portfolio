@@ -50,7 +50,7 @@ const Services = ({ scrollToPortfolio }) => {
         </div>
         <div className="title">
           <h1>
-            Your&nbsp;
+            Mine &nbsp;
             <motion.b whileHover={{ color: "orange" }}>
               Digital Horizon.
             </motion.b>{" "}
@@ -63,7 +63,7 @@ const Services = ({ scrollToPortfolio }) => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>A Junior Frontend Developer's Journey</h2>
+          <h2>My Journey As A Junior Front-Ender</h2>
           <p>
             Creating polished websites as a junior frontend developer, I fuse
             imagination with coding to craft immersive digital experiences that
@@ -76,9 +76,9 @@ const Services = ({ scrollToPortfolio }) => {
         >
           <h2>Exploring the Creative Frontier of Web Design</h2>
           <p>
-            Delving into the realm of web design, I merge artistic flair with
+            Digging into the realm of web design, I merge artistic flair with
             technical expertise to construct visually stunning and intuitive
-            websites that captivate and inspire online audiences
+            websites that captivate and inspire online audiences.
           </p>
         </motion.div>
 
