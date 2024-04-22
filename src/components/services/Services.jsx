@@ -45,12 +45,13 @@ const Services = ({ scrollToPortfolio }) => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Cycle</motion.b>Through
+            <motion.b whileHover={{ color: "orange" }}>Cycle&nbsp;</motion.b>
+            Through
           </h1>
         </div>
         <div className="title">
           <h1>
-            Mine &nbsp;
+            Mine&nbsp;
             <motion.b whileHover={{ color: "orange" }}>
               Digital Horizon.
             </motion.b>{" "}
